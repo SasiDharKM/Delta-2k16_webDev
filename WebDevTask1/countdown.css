@@ -1,0 +1,115 @@
+body {
+	background-position: center;
+	background-size: 1600px 1000px;
+}
+
+.con1 {
+	border-style: solid;
+	border-width: 7px;
+	border-color: #722BB0;
+	margin-top: 110px;
+	margin-right: 110px;
+	margin-left: 110px;
+	padding-bottom: 50px;
+}
+
+h1 {
+	font-family: "Times New Roman", cursive, sans-serif;
+    color: #8B0000;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.timerDisplay {
+	margin-bottom: 20px;
+	margin-right: 200px;
+	margin-left: 200px;
+	height: 100px;
+	text-align: center;
+    padding-top: 20px;
+}
+
+.timerDisplay > div {
+	font-family: "Sans Serif", Times, serif;
+	letter-spacing: 1px;
+	font-weight: 840;
+	color: #AAAAA0;
+	margin-right: 30px;
+	border-style: outset;
+	border-color: #114136;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+} 
+
+.ShowTime {
+	margin-top: 5px;
+	margin-right: 13px;
+	margin-left: 13px;
+	padding-top: 10px;
+	border-style: black;
+	border-color: red;
+	text-align: center;
+	color: 	#2F4F4F;
+	height: 30px;
+	background-color: #AAAAAA;
+	font-size: 20px;
+}
+
+.enterTimerDetails {
+	color: #223300;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.getDetails > input {
+	margin-top: 20px;
+	width: 120px;
+	border-style: inset;
+}
+
+.timerOptions {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.timerOptions > button {
+	border-radius: 10px;
+	height: 30px;
+	font-weight: bold; 
+}
+.timerOptions > button:hover {
+	background-color: #11A111;
+}
+
+.SetDetails {
+	text-align: center;
+}
+
+.SetDetails > div {
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	display: inline-block;
+}
+
+.SetDetails > div > button {
+	height: 30px;
+	border-radius: 10px;
+	border-width: 0.1px;
+	font-weight: bold;
+}
+
+.SetDetails > div > button:hover {
+	background-color: #7F222F;
+}
+
+#p01 {
+	display: none;
+}

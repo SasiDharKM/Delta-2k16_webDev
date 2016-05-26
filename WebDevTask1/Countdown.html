@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Delta WebDev Task1</title>
+	<link rel="stylesheet" type="text/css" href="countdown.css">
+</head>
+<body>
+<div class="con1">	
+	<h1>Limit Your Time</h1>
+	<div class="timerDisplay">
+		<div>DAYs
+			<div class="ShowTime" id="days" value="00">00</div>
+		</div>
+		<div>HOURs
+			<div class="ShowTime" id="hours" value="00">00</div>
+		</div>
+		<div>MINs
+			<div class="ShowTime" id="minutes" value="00">00</div>
+		</div>
+		<div>SECs
+		    <div class="ShowTime" id="seconds" value="00">00</div>
+	    </div>
+		<div>MILSECs
+			<div class="ShowTime" id="milliseconds" value="00">000</div>
+		</div>
+	</div>
+	<div class="enterTimerDetails">
+		<div class="getDetails">
+			Days: <input id="getDays" type="number" min="0" value="">
+			Hrs: <input id="getHours" type="number" min="0" max="23" value="" placeholder="between 0 and 24">
+			Mins: <input id="getMinutes" type="number" min="0" max="59" value="" placeholder="between 0 and 60">
+			Secs: <input id="getSeconds" type="number" min="0" max="59" value="" placeholder="between 0 and 60">
+		</div>
+	</div>
+	<div class="timerOptions">
+		<button type="button" value="Update Timer" onclick="updateTimer()">Update</button>
+	</div>
+	<div class="SetDetails">
+		<div>
+			<button type="button" onclick="startTimer()">Start</button>
+		</div>
+		<div>
+			<button type="button" onclick="pauseTimer()">Pause</button>
+		</div>
+		<div>
+			<button type="button" onclick="resumeTimer()">Resume</button>
+		</div>
+		<div>
+			<button type="button" onclick="resetTimer()">Reset</button>
+	    </div>
+	    <div>
+			<button type="button" onclick="stopTimer()">Stop</button>
+	    </div>
+	</div>
+</div>
+<p id="para1"></p>
+</body>
+<script type="text/javascript" src="countdown.js"></script>
+</html>
